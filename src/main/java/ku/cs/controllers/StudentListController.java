@@ -101,4 +101,10 @@ public class StudentListController {
             errorLabel.setText("");
         }
     }
+    @FXML
+    public void onNextlistbutton(){
+        try {
+            FXRouter.goTo("students-table");
+        } catch (IOException e) {}
+    }
 }

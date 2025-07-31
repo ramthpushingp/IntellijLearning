@@ -27,5 +27,6 @@
       <TextField fx:id="giveScoreTextField" layoutX="365.0" layoutY="218.0" prefHeight="26.0" prefWidth="113.0" />
       <Button layoutX="499.0" layoutY="218.0" mnemonicParsing="false" onAction="#onGiveScoreButtonClick" text="OK" />
       <Label fx:id="errorLabel" layoutX="365.0" layoutY="252.0" text="errorLabel" textFill="#f80000" />
+      <Button layoutX="427.0" layoutY="361.0" mnemonicParsing="false" onAction="#onNextlistbutton" text="Next" />
    </children>
 </AnchorPane>
